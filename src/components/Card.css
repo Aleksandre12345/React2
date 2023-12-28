@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes {
+    width: 327px;
+    height: 442px;
+    gap: 30px;
+}
+.orange {
+    background-color:#E28625;
+    border-radius: 8px 8px 0px 0px;
+}
+.lightblue {
+    background-color: #006971;
+}
+.darkblue {
+    background-color: #004140;
+    border-radius: 0px 0px 8px 8px;
+}
+.carimages {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+h1 {
+    color: #F2F2F2;
+    font-family: 'Big Shoulders Display';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 35px;
+}
+p {
+    width: 231px;
+    color: #FFF;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 25px;
+    opacity: 0.75;
+}
+button {
+    width: 146px;
+    height: 48px;
+    border-radius: 25px;
+    background: #F2F2F2;
+    border: none;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.yellow {
+    color: #E28625;
+}
+.blue {
+    color: #006971;
+}
+.dblue {
+    color: #004140;
+}
+
+.kviteli:hover {
+    background-color: #E28625;
+    color: white;
+    border: 2px solid white;
+}
+.lurji:hover {
+    background-color: #006971;
+    color: white;
+    border: 2px solid white;
+}
+.mukilurji:hover {
+    background-color: #004140;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+                                                    /* Responsive */
+
+
+
+
+@media (width > 1440px) {    
+    
+    .boxes {
+        width: 307px;
+        height: 500px;
+    }
+    .orange {
+        background-color:#E28625;
+        border-radius: 8px 0px 0px 8px;
+    }
+    .lightblue {
+        background-color: #006971;
+    }
+    .darkblue {
+        background-color: #004140;
+        border-radius: 0px 8px 8px 0px;
+    }
+    button {
+        margin-top: 70px;
+    }
+    p {
+        width: 212px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+    }
+}
