@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Card 
-      carimg = "./public/Carimg.svg"
+      carimg = "/Carimg.svg"
       name = "Sedans"
       desc = "Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."
       background = "orange"
@@ -14,7 +14,7 @@ function App() {
       border = "kviteli"
     />
     <Card 
-      carimg = "./public/secondcarimg.svg"
+      carimg = "/secondcarimg.svg"
       name = "SUVs"
       desc = "Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures."
       background="lightblue"
@@ -22,7 +22,7 @@ function App() {
       border = "lurji"
     />
     <Card 
-      carimg = "./public/thirdcarimg.svg"
+      carimg = "/thirdcarimg.svg"
       name = "Luxury"
       desc = "LeCruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style. mon"
       background = "darkblue"
